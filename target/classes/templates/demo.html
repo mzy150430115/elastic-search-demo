@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>心心-样例图</title>
+<link href="../static/images/favicon.ico" rel="shortcut icon" class="icon-love" type="images/x-ico">
+    <link th:href="@{/static/css/love.css}" rel="stylesheet">
+    <script type="text/javascript" th:src="@{/static/js/loveyou.js}"></script>
+</head>
+<body>
+
+<div class="container" onselectstart="return false;" unselectable="on" style="-moz-user-select:none;">
+
+    <div class="body_left">
+        <img th:src="@{../static/images/biubiubiu.gif}" alt="" ondragstart='return false;'>
+    </div>
+
+    <div class="body_center love">
+        <div class="block">
+            <div class="div1"></div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+            <div class="div4"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="border">
+        <div class="border-top"></div>
+        <div class="border-bottom"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
